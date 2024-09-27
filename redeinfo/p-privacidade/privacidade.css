@@ -1,0 +1,50 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #444;
+}
+
+h2, h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+p, li {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+a {
+    color: #006699;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para o corpo do texto */
+ol, ul {
+    margin-left: 20px;
+}
+
+ol li, ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+}
+
+/* Destaques */
+span {
+    color: #333;
+}
+

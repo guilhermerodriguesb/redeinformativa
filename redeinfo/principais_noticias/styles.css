@@ -1,0 +1,141 @@
+
+header {
+    background-color: #107fee;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+nav {
+    overflow: hidden;
+}
+
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #020000;
+    text-align: center;
+}
+
+
+
+h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #f8efef;
+}
+
+.weather-container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#weather p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+
+.news-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 90%;
+}
+
+.news-item {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #333;
+    margin: 15px 0;
+}
+
+
+p {
+    color: #666;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/redeinformativa/redeinfo/images/jornal.jpeg'); /* Substitua pela URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Define a opacidade da imagem de fundo */
+    z-index: -1; /* Mantém a imagem no fundo */
+}
